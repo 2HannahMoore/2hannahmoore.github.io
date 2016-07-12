@@ -1,12 +1,40 @@
 body {
-  font-family: Verdana;
   font-size: 12px;
   padding: 10px;
-  background-color: #f2efe8;
-  font-family: 'Monteserrat', sans-serif;
-  color: #FBCB15;
+  background-color: #bfecf7;
+  font-family:"Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  color:  #8B1C55;
   text-decoration: none;
   font-weight: bold;
+  padding: 40px;
+  overflow-x: hidden; /* For Opera */
+  -webkit-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  -moz-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
 }
 
 h1{
@@ -20,23 +48,23 @@ h1{
   padding-top: 30px;
   padding-left: 10%;
   padding-right: 10%;
-
  } 
 
-#chartlingo {
-  width: 75%;
-  height: 500px;
-  padding-top: 30px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 #info {
-  opacity: 0.9;
-  background: #8B1C55;
+  /*opacity: .3;*/
+  background: #18cdf7;
   padding: 20px;
   align-content: center;
   font-size: 30px;
+}
+
+#greeting {
+  /*opacity: 0.3;*/
+  background: #18cdf7;
+  padding: 20px;
+  align-content: center;
+  font-size: 30px;
+}
 
   /*Additional Colors:
   #159594 green

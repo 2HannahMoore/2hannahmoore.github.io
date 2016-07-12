@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="style.css" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
   <title>Say Hello!</title>
 </head>
 <body>
 
-<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
-<script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
-<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-<div id="chartdiv"></div>   
-<div style="text-align:center; position:absolute; bottom:0px;">
-  Change projection: 
-  <a href="#" onclick="window.map.setProjection('winkel3')">Winkel 3</a> |
-  <a href="#" onclick="window.map.setProjection('eckert3')">Eckert 3</a> |
-  <a href="#" onclick="window.map.setProjection('eckert5')">Eckert 5</a> |
-  <a href="#" onclick="window.map.setProjection('eckert6')">Eckert 6</a> |
-  <a href="#" onclick="window.map.setProjection('miller')">Miller</a> |
-  <a href="#" onclick="window.map.setProjection('equirectangular')">Equirectangular</a> |
-  <a href="#" onclick="window.map.setProjection('mercator')">Mercator</a>
+<div class= "sign">
+  <image src="images/international-travel.jpg" alt="sign"> </image>
 </div>
+  <!-- <div> -->
+      <!-- <a href="map.html">   <button type="button" class= "talkBubble"> -->
+      <!-- <p> say hello! </p> -->
+    <!-- </button> -->
+    </a>
+<div>
+   <button type="button" id = "cloud" ><span class='shadow'></span> 
+      <a href="map.html" style="text-decoration:none"> <p> say hello! </p>
+    </button></div>
+</div> 
 
 
-  <script src="js/jquery-2.1.4.js"></script>
-  <script src="js/index.js"></script>
 </body>
 </html>
